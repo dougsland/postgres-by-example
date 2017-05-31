@@ -11,23 +11,26 @@ $ psql -h hostname -p 5432 -d dbname -U username
 
 # Meta commands
 
-\password
-  postgres=# \password
+\password  
+  postgres=# \password  
   Change password
 
-\timing
-  postgres=# \timing
+\timing  
+  postgres=# \timing  
   Execution timing
 
-\h
-  Provides help on specific SQL commands
+\h  
+  Provides help on specific SQL commands  
   postgres=# \h CREATE
 
-\?
+\?  
   Provides help on psql meta-commands
 
-\q
+\q  
   Quit
+
+\dv  
+  List views
 
 
 Graphical administration tools
