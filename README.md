@@ -32,6 +32,9 @@ $ psql -h hostname -p 5432 -d dbname -U username
 \dv  
   List views
 
+\d view-name  
+  Show view definition
+
 
 Graphical administration tools
 
