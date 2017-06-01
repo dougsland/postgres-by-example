@@ -11,4 +11,4 @@ WHERE
    vds_group_compatibility_version IN (
 	'3.0',
 	'3.1'
-);
+   );
