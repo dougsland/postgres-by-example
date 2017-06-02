@@ -15,3 +15,14 @@ SELECT
 FROM
     vms
 ORDER BY vm_name, os;
+
+
+-- Sort Direction, can be ascending (default) but also descending (from z to a), use DESC
+-- This can also apply for multiple columns
+SELECT
+    vm_name,
+    os,
+    description
+FROM
+    vms
+ORDER BY vm_name DESC;
