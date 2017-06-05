@@ -40,3 +40,18 @@ Graphical administration tools
 
 - pgAdmin3
 - phpPgAdmin
+
+
+# WHERE operators
+
+| Operator | Description                  |
+|----------|------------------------------|
+| =        | Equality                     |
+| <>       | Non Equality                 |
+| !=       | Non Equality                 |
+| <        | Less than                    |
+| <=       | Less than or equal to        |
+| >        | Greater than                 |
+| >=       | Greator than or equal to     |
+| BETWEEN  | Between two specified values |
+| IS NULL  | Is a NULL value              |
