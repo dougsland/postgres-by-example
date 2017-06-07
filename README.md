@@ -1,3 +1,8 @@
+# Concepts
+
+database is a collection of tables and functions. A table consists of 
+a list of records (rows) with fixed number of fields or columns.
+
 # postgres-by-example
 postgres sqls
 
@@ -7,7 +12,11 @@ Specifies that psql is to execute one command string, command, and then exit.
 $ psql --file example.sql  
 Use the file filename as the source of commands instead of reading commands interactively.
 
-$ psql -h hostname -p 5432 -d dbname -U username
+$ psql -h hostname -p 5432 -d dbname -U username  
+  Connect to hostname, port 5432
+
+$ psql -l  
+  List all databases
 
 # Meta commands
 
@@ -35,13 +44,6 @@ $ psql -h hostname -p 5432 -d dbname -U username
 \d view-name  
   Show view definition
 
-
-Graphical administration tools
-
-- pgAdmin3
-- phpPgAdmin
-
-
 # WHERE operators
 
 | Operator | Description                  |
@@ -55,3 +57,16 @@ Graphical administration tools
 | >=       | Greator than or equal to     |
 | BETWEEN  | Between two specified values |
 | IS NULL  | Is a NULL value              |
+
+# Shell Commands
+
+createdb
+  Create database, wrapper for CREATE DATABASE  
+
+dropdb
+  Drop database, wrapper for DROP DATABASE  
+
+# Graphical administration tools
+
+- pgAdmin3
+- phpPgAdmin
