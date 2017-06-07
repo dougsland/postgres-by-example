@@ -60,10 +60,10 @@ $ psql -l
 
 # Shell Commands
 
-createdb
+createdb  
   Create database, wrapper for CREATE DATABASE  
 
-dropdb
+dropdb  
   Drop database, wrapper for DROP DATABASE  
 
 # Graphical administration tools
