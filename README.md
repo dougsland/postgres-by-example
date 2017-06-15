@@ -3,6 +3,10 @@
 database is a collection of tables and functions. A table consists of 
 a list of records (rows) with fixed number of fields or columns.
 
+# Keys
+Primary keys is a unique key in the table, it is the identifier of record (row).  
+Foreign keys 
+
 # postgres-by-example
 postgres sqls
 
@@ -57,6 +61,7 @@ $ psql -l
 | >=       | Greator than or equal to     |
 | BETWEEN  | Between two specified values |
 | IS NULL  | Is a NULL value              |
+| ( )      | To group operators, priority |
 
 # Shell Commands
 
