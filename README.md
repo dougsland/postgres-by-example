@@ -63,6 +63,13 @@ $ psql -l
 | IS NULL  | Is a NULL value              |
 | ( )      | To group operators, priority |
 
+
+# Types
+
+*timestamptz*
+Accepted as an abbreviation for timestamp with time zone  
+https://www.postgresql.org/docs/9.1/static/datatype-datetime.html
+
 # Shell Commands
 
 createdb  
