@@ -70,6 +70,12 @@ $ psql -l
 Accepted as an abbreviation for timestamp with time zone  
 https://www.postgresql.org/docs/9.1/static/datatype-datetime.html
 
+**VARCHAR(N)**
+
+**uuid**
+
+**integer**
+
 # Shell Commands
 
 createdb  
