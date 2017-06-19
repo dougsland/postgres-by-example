@@ -66,7 +66,7 @@ $ psql -l
 
 # Types
 
-**timestamptz** 
+**timestamptz**  
 Accepted as an abbreviation for timestamp with time zone  
 https://www.postgresql.org/docs/9.1/static/datatype-datetime.html
 
